@@ -4,7 +4,7 @@
 	"description": "REST API Framework written in Typescript with Express",
 	"main": "server.ts",
 	"scripts": {
-		"start": "nodemon src/server.ts",
+		"start": "node build/app.js",
 		"build": "webpack --config webpack/webpack.config.js",
 		"lint": "eslint src/**/*"
 	},
